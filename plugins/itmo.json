@@ -1,0 +1,29 @@
+{
+ "id": "itmo",
+ "versions": [
+  {
+   "version": "0.1.2",
+   "channel": "stable",
+   "pulse": ">=1.0",
+   "url": "https://github.com/pulse-assist/pulse-itmo/releases/download/v0.1.2/itmo-0.1.2.tar.gz",
+   "sha256": "0d3df4ea9fc9247514b34aa4e3c00b3b1d41282f6893793ead45a237bdb8cdf1",
+   "size": 24593,
+   "permissions": [
+    "signals:create",
+    "network"
+   ],
+   "released_at": "2026-10-06",
+   "changes": "Расписание ИТМО: вход через ITMO.ID в браузере, неделя по дням, команды pulse itmo today и schedule для агентов"
+  }
+ ],
+ "name": "my.itmo",
+ "description": "Расписание ИТМО: вход через ITMO.ID в браузере, неделя по дням, команды для агентов",
+ "author": "pulse-assist",
+ "license": "MIT",
+ "homepage": "https://github.com/pulse-assist/pulse-itmo",
+ "icon": "bi-calendar-week",
+ "tags": [
+  "учёба",
+  "расписание"
+ ]
+}
