@@ -2,6 +2,22 @@
  "id": "files-plus",
  "versions": [
   {
+   "version": "0.1.1",
+   "channel": "stable",
+   "pulse": ">=1.2",
+   "url": "https://github.com/pulse-assist/pulse-files-plus/releases/download/v0.1.1/files-plus-0.1.1.tar.gz",
+   "sha256": "55a6ecee8958c932eab587e423635ff92d8bedaf89e48d995cd713a006b96620",
+   "size": 14592,
+   "permissions": [
+    "files:open",
+    "embed",
+    "services",
+    "notify"
+   ],
+   "released_at": "2026-10-08",
+   "changes": "Исправление запуска: pulse_plugin ставится из .pulse_plugin_sdk/ (в 0.1.0 контейнер падал)."
+  },
+  {
    "version": "0.1.0",
    "channel": "stable",
    "pulse": ">=1.2",
