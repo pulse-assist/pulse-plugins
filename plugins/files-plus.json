@@ -1,0 +1,32 @@
+{
+ "id": "files-plus",
+ "versions": [
+  {
+   "version": "0.1.0",
+   "channel": "stable",
+   "pulse": ">=1.2",
+   "url": "https://github.com/pulse-assist/pulse-files-plus/releases/download/v0.1.0/files-plus-0.1.0.tar.gz",
+   "sha256": "20e5b9df4ff09e19e665036d4ac72c852ec0c0d41528cf937d57cc6a56038364",
+   "size": 14485,
+   "permissions": [
+    "files:open",
+    "embed",
+    "services",
+    "notify"
+   ],
+   "released_at": "2026-10-08",
+   "changes": "Word, Excel и PowerPoint в «Файлах»: редактор OnlyOffice, шаблоны, команды text/convert для агентов. Нужны права embed и services (~3 ГБ RAM)."
+  }
+ ],
+ "name": "PulseFiles+",
+ "description": "Word, Excel и PowerPoint прямо в «Файлах»: открыть, править, создать. Агенты читают документы текстом и конвертируют в PDF",
+ "author": "pulse-assist",
+ "license": "MIT",
+ "homepage": "https://github.com/pulse-assist/pulse-files-plus",
+ "icon": "bi-file-earmark-word",
+ "tags": [
+  "файлы",
+  "офис",
+  "onlyoffice"
+ ]
+}
