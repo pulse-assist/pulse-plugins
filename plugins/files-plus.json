@@ -2,6 +2,22 @@
  "id": "files-plus",
  "versions": [
   {
+   "version": "0.1.3",
+   "channel": "stable",
+   "pulse": ">=1.2",
+   "url": "https://github.com/pulse-assist/pulse-files-plus/releases/download/v0.1.3/files-plus-0.1.3.tar.gz",
+   "sha256": "a786ff74b6104ffc1285e07f301346a036d151ab6bd328d056a276655deac735",
+   "size": 15318,
+   "permissions": [
+    "files:open",
+    "embed",
+    "services",
+    "notify"
+   ],
+   "released_at": "2026-10-09",
+   "changes": "Исправлен NameError quote в /editor — презентации и документы с кириллицей снова открываются"
+  },
+  {
    "version": "0.1.2",
    "channel": "stable",
    "pulse": ">=1.2",
