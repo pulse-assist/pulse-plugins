@@ -2,6 +2,21 @@
  "id": "yadisk",
  "versions": [
   {
+   "version": "0.2.1",
+   "channel": "stable",
+   "pulse": ">=1.4",
+   "url": "https://github.com/pulse-assist/pulse-yadisk/releases/download/v0.2.1/yadisk-0.2.1.tar.gz",
+   "sha256": "597af1232a315b41b08a4ca99741a3107da5ea71e11a6b3de8bf494ee41debdf",
+   "size": 41446,
+   "permissions": [
+    "files:provide",
+    "signals:create",
+    "network"
+   ],
+   "released_at": "2026-10-09",
+   "changes": "Прокси в РФ для запросов к Яндексу (сервер Пульса вне России), «Проверить подключение» в настройках и pulse yadisk check, индикатор долгих запросов на странице"
+  },
+  {
    "version": "0.1.0",
    "channel": "stable",
    "pulse": ">=1.3",
