@@ -18,7 +18,7 @@ ID = re.compile(r"^[a-z][a-z0-9-]{1,39}$")
 VERSION = re.compile(r"^\d+(\.\d+){0,2}([-+][0-9A-Za-z.-]+)?$")
 SHA256 = re.compile(r"^[0-9a-f]{64}$")
 SPEC = re.compile(r"^(>=|<=|==|>|<)?\s*(\d+(?:\.\d+)*)$")
-PERMISSIONS = {"cards:read", "cards:write", "signals:create", "files", "files:open", "embed", "services", "jobs", "chat", "notify", "network"}
+PERMISSIONS = {"cards:read", "cards:write", "signals:create", "files", "files:open", "files:provide", "embed", "services", "jobs", "chat", "notify", "network"}
 CHANNELS = {"stable", "beta"}
 
 
