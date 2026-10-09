@@ -2,6 +2,21 @@
  "id": "yadisk",
  "versions": [
   {
+   "version": "0.2.2",
+   "channel": "stable",
+   "pulse": ">=1.4",
+   "url": "https://github.com/pulse-assist/pulse-yadisk/releases/download/v0.2.2/yadisk-0.2.2.tar.gz",
+   "sha256": "e16ceec8c23e75fe3c332b289e838a8c5b48d1af754632442928c77e3b6c301c",
+   "size": 41837,
+   "permissions": [
+    "files:provide",
+    "signals:create",
+    "network"
+   ],
+   "released_at": "2026-10-09",
+   "changes": "Код входа показывается как его выдал Яндекс (без пробела); «Копировать» кладёт код в буфер обмена"
+  },
+  {
    "version": "0.2.1",
    "channel": "stable",
    "pulse": ">=1.4",
