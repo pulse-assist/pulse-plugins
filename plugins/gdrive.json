@@ -1,0 +1,33 @@
+{
+ "id": "gdrive",
+ "versions": [
+  {
+   "version": "0.1.0",
+   "channel": "stable",
+   "pulse": ">=1.5",
+   "url": "https://github.com/pulse-assist/pulse-gdrive/releases/download/v0.1.0/gdrive-0.1.0.tar.gz",
+   "sha256": "76e82870f3eb8bb2000fbddbfbff03971f6cb8728a98043731c4e1efc15bdc3b",
+   "size": 47335,
+   "permissions": [
+    "files:provide",
+    "files:open",
+    "embed",
+    "signals:create",
+    "network"
+   ],
+   "released_at": "2026-10-10",
+   "changes": "Google Drive папкой @gdrive в «Файлах» и у агентов: несколько аккаунтов, «Мой диск», «Доступные мне», общие диски, ссылки; документы Google открываются редактором Google в «Файлах»"
+  }
+ ],
+ "name": "Google Drive",
+ "description": "Google Drive в «Файлах» и у агентов папкой @gdrive: несколько аккаунтов, «Мой диск», «Доступные мне», общие диски, ссылки; документы Google — в редакторе Google",
+ "author": "pulse-assist",
+ "license": "MIT",
+ "homepage": "https://github.com/pulse-assist/pulse-gdrive",
+ "icon": "bi-google",
+ "tags": [
+  "файлы",
+  "облако",
+  "google"
+ ]
+}
