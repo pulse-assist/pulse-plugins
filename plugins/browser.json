@@ -2,6 +2,22 @@
  "id": "browser",
  "versions": [
   {
+   "version": "0.3.1",
+   "channel": "stable",
+   "pulse": ">=1.7",
+   "url": "https://github.com/pulse-assist/pulse-browser/releases/download/v0.3.1/browser-0.3.1.tar.gz",
+   "sha256": "7fbbd6792b02abbbf8201495cac314cab0a15fe1b697cb8e85bdbb846f63202e",
+   "size": 55105,
+   "permissions": [
+    "files:provide",
+    "signals:create",
+    "notify",
+    "network"
+   ],
+   "released_at": "2026-10-12",
+   "changes": "Понятная ошибка, когда сайт не отвечает с сервера (подсказка про прокси); подписи у элементов без текста."
+  },
+  {
    "version": "0.3.0",
    "channel": "stable",
    "pulse": ">=1.7",
