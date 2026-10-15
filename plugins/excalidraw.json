@@ -2,6 +2,21 @@
  "id": "excalidraw",
  "versions": [
   {
+   "version": "0.1.1",
+   "channel": "stable",
+   "pulse": ">=1.5",
+   "url": "https://github.com/pulse-assist/pulse-excalidraw/releases/download/v0.1.1/excalidraw-0.1.1.tar.gz",
+   "sha256": "94d98b6ff078abdfb306f3a8c3f0c05ce2f98a36ecaa727375368bf757b27a3f",
+   "size": 15907252,
+   "permissions": [
+    "embed",
+    "files:open",
+    "files"
+   ],
+   "released_at": "2026-10-15",
+   "changes": "Страница меню «Доски»: кнопки «Развернуть» и «Во весь экран», рядом с доской — полноценный чат Пульса (история, ход работы, файлы, голос, выбор агента) с контекстом доски и выделения — в Пульсе с контрактом плагинов 1.10; в «Файлах» и на более старых версиях — прежний чат плагина. Исправлено имя агента «[object Object]» в чате."
+  },
+  {
    "version": "0.1.0",
    "channel": "stable",
    "pulse": ">=1.5",
