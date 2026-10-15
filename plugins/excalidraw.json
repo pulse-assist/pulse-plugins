@@ -1,0 +1,25 @@
+{
+ "id": "excalidraw",
+ "versions": [
+  {
+   "version": "0.1.0",
+   "channel": "stable",
+   "pulse": ">=1.5",
+   "url": "https://github.com/pulse-assist/pulse-excalidraw/releases/download/v0.1.0/excalidraw-0.1.0.tar.gz",
+   "sha256": "8421cdf746881a6cea94e97579d7b7eb9829db8fb6b26f0ee297ea2eb862d4d6",
+   "size": 15904950,
+   "permissions": [
+    "embed",
+    "files:open",
+    "files"
+   ],
+   "released_at": "2026-10-15",
+   "changes": "Первая версия: доски Excalidraw в Пульсе — редактор прямо в «Файлах» (*.excalidraw, шаблон «Доска Excalidraw»), автосохранение со слиянием правок, чат с агентом рядом с доской; агенты читают доски, рисуют фигуры со стрелками и подписями, выгружают PNG и SVG (pulse excalidraw). Работает без интернета. Редактор прямо на странице меню «Доски» — в Пульсе с контрактом плагинов 1.9, в более старых там список досок и кнопка открыть редактор."
+  }
+ ],
+ "name": "Excalidraw",
+ "description": "Доски Excalidraw в Пульсе: редактор с автосохранением (*.excalidraw в «Файлах»), чат с агентом рядом с доской, агенты читают и рисуют на досках, правки видны сразу",
+ "author": "Pulse",
+ "license": "MIT",
+ "homepage": "https://github.com/pulse-assist/pulse-excalidraw"
+}
