@@ -2,6 +2,21 @@
  "id": "excalidraw",
  "versions": [
   {
+   "version": "0.1.2",
+   "channel": "stable",
+   "pulse": ">=1.5",
+   "url": "https://github.com/pulse-assist/pulse-excalidraw/releases/download/v0.1.2/excalidraw-0.1.2.tar.gz",
+   "sha256": "d04b6a826a9eba74deb3745c398d89bd56aa70800aa411dc8851ecb632e7a5e7",
+   "size": 15909680,
+   "permissions": [
+    "embed",
+    "files:open",
+    "files"
+   ],
+   "released_at": "2026-10-16",
+   "changes": "Удаление доски на странице «Доски»: «×» у доски в списке и «Удалить» в шапке открытой доски, с подтверждением; для досок на Яндекс Диске и Google Drive файл уходит в корзину облачного диска. Редактор больше не воскрешает удалённую доску, если она была открыта в другой вкладке."
+  },
+  {
    "version": "0.1.1",
    "channel": "stable",
    "pulse": ">=1.5",
