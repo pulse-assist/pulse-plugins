@@ -1,0 +1,27 @@
+{
+ "id": "datalabs",
+ "versions": [
+  {
+   "version": "0.1.0",
+   "channel": "stable",
+   "pulse": ">=1.11",
+   "url": "https://github.com/pulse-assist/pulse-datalabs/releases/download/v0.1.0/datalabs-0.1.0.tar.gz",
+   "sha256": "589d42cdcd5e39f197f170572a8689a2d23bb683da77cec4529a896cf2b5047e",
+   "size": 43998,
+   "permissions": [
+    "embed",
+    "files:open",
+    "files:mount",
+    "notify",
+    "network"
+   ],
+   "released_at": "2026-10-20",
+   "changes": "Первая версия: ноутбуки Jupyter в Пульсе — .ipynb открывается в «Файлах», JupyterLab в меню; агенты считают в живом ядре Python, запускают ноутбуки, выгружают в HTML/PDF и собирают отчёты по расписанию. Код ноутбука видит все «Файлы». Нужен Пульс 1.11 и Docker."
+  }
+ ],
+ "name": "DataLabs",
+ "description": "Ноутбуки Jupyter: .ipynb в «Файлах» открывается в Jupyter, JupyterLab — в меню; агенты считают в живом ядре Python, запускают ноутбуки, собирают отчёты по расписанию и выгружают их в HTML и PDF",
+ "author": "",
+ "license": "",
+ "homepage": "https://github.com/pulse-assist/pulse-datalabs"
+}
