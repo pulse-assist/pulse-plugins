@@ -21,7 +21,7 @@
  ],
  "name": "DataLabs",
  "description": "Ноутбуки Jupyter: .ipynb в «Файлах» открывается в Jupyter, JupyterLab — в меню; агенты считают в живом ядре Python, запускают ноутбуки, собирают отчёты по расписанию и выгружают их в HTML и PDF",
- "author": "",
- "license": "",
+ "author": "pulse-assist",
+ "license": "MIT",
  "homepage": "https://github.com/pulse-assist/pulse-datalabs"
 }
