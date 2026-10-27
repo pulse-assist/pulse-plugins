@@ -2,6 +2,23 @@
  "id": "datalabs",
  "versions": [
   {
+   "version": "0.1.1",
+   "channel": "stable",
+   "pulse": ">=1.11",
+   "url": "https://github.com/pulse-assist/pulse-datalabs/releases/download/v0.1.1/datalabs-0.1.1.tar.gz",
+   "sha256": "1ecdc90c45711fae97be8511c70b7c974987bda2b01371905eb450398f26d280",
+   "size": 45245,
+   "permissions": [
+    "embed",
+    "files:open",
+    "files:mount",
+    "notify",
+    "network"
+   ],
+   "released_at": "2026-10-27",
+   "changes": "Ядра ноутбуков и прогоны papermill — с пониженным приоритетом: долгий расчёт больше не оставляет плагин без процессора, и Пульс не перезапускает DataLabs посреди прогона."
+  },
+  {
    "version": "0.1.0",
    "channel": "stable",
    "pulse": ">=1.11",
