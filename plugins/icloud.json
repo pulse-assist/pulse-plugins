@@ -1,0 +1,31 @@
+{
+ "id": "icloud",
+ "versions": [
+  {
+   "version": "0.1.0",
+   "channel": "stable",
+   "pulse": ">=1.5",
+   "url": "https://github.com/pulse-assist/pulse-icloud/releases/download/v0.1.0/icloud-0.1.0.tar.gz",
+   "sha256": "1a24d5e9fc39dd18bed5532d5a9fd64ec2e16fac06e39ea381a1fb70ac0f8ca5",
+   "size": 38914,
+   "permissions": [
+    "files:provide",
+    "signals:create",
+    "network"
+   ],
+   "released_at": "2026-11-03",
+   "changes": "iCloud Drive папкой @icloud в «Файлах» и у агентов: несколько аккаунтов Apple, весь Drive или папки в нём; вход по Apple ID и коду на странице плагина, пароль не хранится"
+  }
+ ],
+ "name": "iCloud Drive",
+ "description": "iCloud Drive в «Файлах» и у агентов папкой @icloud: несколько аккаунтов Apple, весь Drive или папки в нём; вход по Apple ID и коду, пароль не хранится",
+ "author": "pulse-assist",
+ "license": "MIT",
+ "homepage": "https://github.com/pulse-assist/pulse-icloud",
+ "icon": "bi-cloud",
+ "tags": [
+  "файлы",
+  "облако",
+  "apple"
+ ]
+}
