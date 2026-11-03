@@ -2,6 +2,22 @@
  "id": "browser",
  "versions": [
   {
+   "version": "0.4.2",
+   "channel": "stable",
+   "pulse": ">=1.8",
+   "url": "https://github.com/pulse-assist/pulse-browser/releases/download/v0.4.2/browser-0.4.2.tar.gz",
+   "sha256": "5057424ee5dd324dfbde6dfe2c86b29affe0185a7135d17a9c9a56d6eb3e9529",
+   "size": 58549,
+   "permissions": [
+    "files:provide",
+    "signals:create",
+    "notify",
+    "network"
+   ],
+   "released_at": "2026-11-03",
+   "changes": "Несколько агентов в одной сессии: команда с --tab выполняется под блокировкой сессии и не попадает в чужие вкладки; tab new возвращает id созданной вкладки"
+  },
+  {
    "version": "0.4.1",
    "channel": "stable",
    "pulse": ">=1.8",
